@@ -56,7 +56,12 @@ public class WebServiceController {
 		return result;
 	}
 
-	
+	/**
+	 * 
+	 * @param customerDTO
+	 * @param authToken
+	 * @return
+	 */
 	@PostMapping(path = "/customer")
 	public ResponseEntity<String> addCustomer(@RequestBody CustomerDTO customerDTO,
 			@RequestParam("authorization") String authToken) {
