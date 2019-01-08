@@ -57,7 +57,7 @@ public class WebServiceController {
 	}
 
 	/**
-	 * 
+	 * This method is used to add a new customer
 	 * @param customerDTO
 	 * @param authToken
 	 * @return
